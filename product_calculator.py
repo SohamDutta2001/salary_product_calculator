@@ -127,4 +127,4 @@ if st.button("🚀 Go to LinkedIn"):
     st.markdown("[Click here to open LinkedIn](https://www.linkedin.com)", unsafe_allow_html=True)
 
 st.markdown("---")
-st.caption("Built with ❤️ using Streamlit")
+st.caption("Built with ❤️ by Sinjini & Soham")
