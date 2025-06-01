@@ -106,7 +106,7 @@ else:
     col1.metric("Net Monthly Income", f"{symbol}{net_monthly_income:,.2f}")
     col2.metric("Hourly Income", f"{symbol}{hourly_income:.2f}")
     
-    st.markdown(f"To buy a **{product_name}**, you need to work for approximately **{hours_to_work:.1f} hours** (**{days_to_wor:.1f} days**) straight!")
+    st.markdown(f"To buy a **{product_name}**, you need to work for approximately **{hours_to_work:.1f} hours** (**{days_to_work:.1f} days**) straight!")
     
 # --- Visualizations ---
 st.header("🧩 Simulations")
