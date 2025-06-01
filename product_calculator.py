@@ -120,8 +120,11 @@ st.plotly_chart(fig1, use_container_width=True)
 # 💡 Fun note at the end
 st.markdown("---")
 st.markdown("### 🧠 Final Thought")
-st.info("If you think your salary can't afford your dreams, don't drop the dream — just drop the job. 😄 Time to update that LinkedIn!")
+st.info("If you think your salary can't afford your dreams, don't drop the dream — just drop the job. 😄")
 
 # Redirect to LinkedIn
 if st.button("🚀 Go to LinkedIn"):
     st.markdown("[Click here to open LinkedIn](https://www.linkedin.com)", unsafe_allow_html=True)
+
+st.markdown("---")
+st.caption("Built with ❤️ using Streamlit")
