@@ -89,9 +89,8 @@ missing_input = (
     currency == "" or
     inc_monthly == 0 or
     work_hrs == 0 or
-    working_days_per_week == 0 or
     (house_owned == "No" and amt_rent == 0) or
-    (wfo_status == "Yes" and (wfo_days == 0 or daily_commute_expense == 0)) or
+    (wfo_status == "Yes" and wfo_days == 0) or
     product_name.strip() == "" or
     product_cost_local == 0
 )
